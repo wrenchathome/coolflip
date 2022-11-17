@@ -1,0 +1,21 @@
+REM This is a cool BadUSB script for Windows
+
+REM First we open windows notepad
+DELAY 1000
+GUI r
+DELAY 500
+STRING notepad
+DELAY 500
+ENTER
+DELAY 750
+
+REM Now lets type something cool
+STRING something cool
+ENTER
+DEFAULT_DELAY 50
+
+REM how about we type something else now?
+STRING something else
+
+REM Now that we typed cool stuff, lets close the notepad
+ALT F4
