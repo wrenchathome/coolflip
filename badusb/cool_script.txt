@@ -11,11 +11,22 @@ DELAY 750
 
 REM Now lets type something cool
 STRING something cool
-ENTER
-DEFAULT_DELAY 50
 
+REM Lets wait a bit to give you time to appreciate this line
+DELAY 1000
+
+ENTER
 REM how about we type something else now?
 STRING something else
 
-REM Now that we typed cool stuff, lets close the notepad
+
+REM adding a bit more of a delay, aka waiting time :)
+DELAY 1000
+
+
+REM Now that we typed cool stuff, lets close the notepad like nothing ever happened!
 ALT F4
+DELAY 200
+TAB
+DELAY 50
+ENTER
